@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="input">
+            <i class="fa fa-bars" style="font-size:24px; color: rgb(13, 155, 207);"></i>
+            <i class="fa fa-floppy-o" onclick="saveTask()"   style="font-size:24px; color: rgb(13, 155, 207);"></i>
+            <input type="text" placeholder="Enter your schedule" id="txtItem">
+        </div>
+        <div class="list-items">
+            <h2>All</h2>
+            <h2  id="pending">To-Do</h2>
+            <h2  id="pending">In-Progress</h2>
+            <h2 id="completed">Closed</h2>
+            <button class="clear" onclick="removeAll()">Clear all</button>
+        </div>
+        <div class="schedules">
+            <ul id="myTaskList">
+                
+                <!-- <li class="list">
+                    <div>
+                    <i class="fa fa-pencil-square" style=""></i> -->
+                    <!-- <i class="fa fa-trash-o" style="font-size:24px; color: rgb(207, 13, 13);"></i>
+                    </div>
+                    <p>name</p>
+                </li>
+                <li class="list">
+                    <div>
+                    <i class="fa fa-pencil-square" style="font-size:24px; color: rgb(10, 125, 41);"></i>
+                    <i class="fa fa-trash-o" style="font-size:24px; color: rgb(207, 13, 13);"></i>
+                    </div>
+                    <p>name2</p>
+                </li>
+                <li class="list">
+                    <div>
+                    <i class="fa fa-pencil-square" style="font-size:24px; color: rgb(10, 125, 41);"></i>
+                    <i class="fa fa-trash-o" style="font-size:24px; color: rgb(207, 13, 13);"></i>
+                    </div>
+                    <p>name2</p>
+                </li> -->
+
+                <li>
+                </li>
+            </ul>
+        </div>
+        <!-- <i class="fa fa-check-square-o" style="font-size:24px; color: rgb(17, 179, 46);"></i> -->
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
